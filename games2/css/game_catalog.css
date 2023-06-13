@@ -1,0 +1,36 @@
+.pravka1{
+  margin-top: 10px;
+  position: relative;
+  top: -80px;
+  font-size: 35px;
+  color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(90deg, red, orange, fuchsia);
+  left: 520px;
+}
+
+.many_games{
+  border: 0px solid Silver;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #f64f59 0%, #c471ed 51%,#12c2e9 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+  position:relative;
+  width: 1000px;
+  text-align: center;
+  top: 500px;
+  left: 410px;
+}
+.many_games:hover{
+   background-position: right center;
+}

@@ -1,0 +1,34 @@
+#vhod_tem{
+  text-align: center;
+  align-items: center;
+  width: 400px;
+  height: 300px;
+  background: #524E4E;
+  color: white;
+  position: relative;
+  border-radius: 20px;
+  left: 750px;
+  bottom: 3900px;
+  display: none;
+}
+
+#vhod_login, #vhod_password{
+  background: black;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  width: 200px;
+  height: 20px;
+}
+#vhod_login::-webkit-input-placeholder {
+  color: white;
+  text-align: center;
+}
+#vhod_password::-webkit-input-placeholder {
+   color: white;
+   text-align: center;
+  }
+
+#vhod_sucsess{
+  display: none;
+}

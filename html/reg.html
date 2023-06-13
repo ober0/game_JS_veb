@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>JSgames registred</title>
+	<link rel="shortcut icon" href="../pictures/iconJsgames.ico" type="image/x-icon">
+	<link rel="stylesheet" href="../css/reg.css" media="screen" type="text/css" >
+	<script src="../js/vhodreg.js"></script>
+</head>
+<body>
+
+
+
+    <div id="login">
+        <form action="javascript:void(0);" method="get">
+            <fieldset class="clearfix">
+                <p><span ></span><input id="login1" type="text" value="Логин" onBlur="if(this.value == '') this.value = 'Логин'" onFocus="if(this.value == 'Логин') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Username" -->
+                <p><span ></span><input id="pass1" type="password"  value="Пароль" onBlur="if(this.value == '') this.value = 'Пароль'" onFocus="if(this.value == 'Пароль') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Password" -->
+                <p><input onclick="registr_end()" type="submit" value="Зарегистрироваться"></p>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

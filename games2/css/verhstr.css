@@ -1,0 +1,139 @@
+body{
+  background: #D9D9D9;
+  overflow-x: hidden;
+}
+
+#logo{
+  width: 350px;
+  height: 175px;
+  position: relative;
+  bottom:25px;
+  left: 60px;
+}
+
+#verh_str{
+  background: white;
+  width: 1930px;
+  height: 125px;
+  margin: -21px;
+  position: absolute;
+}
+#avatar{
+  width: 40px;
+  position: relative;
+  left:1710px;
+  bottom:185px;
+  display: none;
+}
+
+#ur_name {
+  position: relative;
+  left:1760px;
+  bottom:236px;
+  font-size: 25px;
+  display: none;
+
+}
+
+#vhod{
+  border: 0px solid Silver;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #1E9600 0%, #FFD700 51%, #FF0000   100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+  position: absolute;
+  bottom: 22px;
+  right: 60px;
+  width: 50px;
+}
+#vhod:hover{
+   background-position: right center;
+}
+#exit{
+  border: 0px solid Silver;
+  text-decoration: none;
+  display: none;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #1a2a6c 0%, #b21f1f 51%, #fdbb2d 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+  position: absolute;
+  bottom: 17px;
+  right: 220px;
+}
+#exit:hover{
+   background-position: right center;
+}
+#reg{
+  border: 0px solid Silver;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+  position: absolute;
+  bottom: 22px;
+  right: 200px;
+}
+#reg:hover{
+   background-position: right center;
+}
+
+.obloz{
+  text-decoration: none;
+  color: gray;
+  font-size: 25px;
+  font-family: 'Noto Serif', serif;
+}
+
+.obl0{
+  position: relative;
+  right: 55px;
+}
+.obl1{
+  position: relative;
+  right: 20px;
+}
+.obl3{
+  position: relative;
+  left: 50px;
+}
+.obl2{
+  position: relative;
+  left: 15px;
+}
+
+.obl{
+  width: 600px;
+  position: relative;
+  left: 670px;
+  bottom: 145px;
+  text-align: center;
+  align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');

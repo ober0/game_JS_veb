@@ -1,0 +1,136 @@
+.dino_block{
+  background: linear-gradient(15deg, #b92b27, #1565C0) fixed;
+  margin: -10px;
+  width: 1920px;
+  height: 1100px;
+  position: relative;
+  bottom: 950px;
+  align-items: center;
+  text-align: center;
+}
+
+.dino_name{
+  color:#C6FFDD;
+  position: relative;
+  top: 110px;
+  font-size: 25px;
+}
+
+.dino_img{
+  position: relative;
+  top: 180px;
+}
+.dino_img1{
+  border-radius: 20px;
+}
+
+.dino_opisanie{
+  width: 1000px;
+  color: #C6FFDD;
+  position:relative;
+  top: 230px;
+  left: 420px;
+}
+
+.dino_btn_goplay{
+  position: relative;
+  top: 302px;
+
+  }
+.dino_btn_goplay1:hover{
+    background-position: right center;
+}
+
+.dino_btn_goplay1{
+  border: 0px solid Silver;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 3px 80px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #12c2e9 0%, #c471ed 51%, #f64f59 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+  width: 50px;
+  font-size:25px;
+}
+.pravka2{
+  position: relative;
+  right: 30px;
+  font-size: 25px;
+}
+
+.dino_btn_kod{
+  position: relative;
+  top: 198px;
+  width: 300px;
+  left: 300px;
+
+  }
+.dino_btn_kod1:hover{
+    background-position: right center;
+}
+
+.dino_btn_kod1{
+  border: 0px solid Silver;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 0px 160px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #1E9600 0%, #FFF200 51%, #FF0000 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+  width: 50px;
+  font-size:25px;
+}
+
+.pravka3{
+  position: relative;
+  font-size: 25px;
+  right: 110px;
+}
+
+.dino_kod_download{
+  position: relative;
+  top: 95px;
+  width: 300px;
+  left: 1200px;
+
+  }
+.dino_kod_download1:hover{
+    background-position: right center;
+}
+
+.dino_kod_download1{
+  border: 0px solid Silver;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 0px 130px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #40E0D0 0%, #FF8C00 51%, #FF0080 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+  width: 50px;
+  font-size:25px;
+}
+.pravka4{
+  position: relative;
+  right: 70px;
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="../pictures/iconJsgames.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/verhstr.css">
+    <link rel="stylesheet" href="../css/reg1.css">
+    <link rel="stylesheet" href="../css/game_catalog.css">
+    <link rel="stylesheet" href="../css/dino_block.css">
+    <link rel="stylesheet" href="../css/bird_block.css">
+    <link rel="stylesheet" href="../css/snake_block.css">
+    <link rel="stylesheet" href="../css/black_block.css">
+    <script src="../js/vhod.js"></script>
+    <script src="../js/vhodreg.js"></script>
+
+
+
+    <title>JSgames</title>
+  </head>
+  <body>
+
+
+    <!-- Верхняя часть страницы -->
+
+    <div id="verh_str">
+      <a href="games_page.html"><img id="logo" src="../pictures/Jsgames_logo.png" alt=""></a>
+      <div class="obl">
+        <hr>
+        <a class="obloz obl0" onclick="obsuj()">Обсуждения</a>
+        <a class="obloz obl1" onclick="forum()">Форум</a>
+        <a class="obloz obl2" href="../mail">Помощь</a>
+        <a class="obloz obl3" href="../mail">Предложения</a>
+        <hr>
+      </div>
+      <a onclick="os1()" id="reg">Регистрация</a>
+      <a onclick="as2()" id="vhod">Вход</a>
+      <a onclick="as3()" id="exit">Выйти</a>
+      <img id="avatar" src="..\pictures\avatar.png" alt="">
+      <h3 id='ur_name'></h3>
+    </div>
+
+
+
+
+    <!-- Каталог игр -->
+
+
+    <h1 class="pravka1"> Игры легкого уровня представленные на сайте:</h1>
+    <div class="game1_catalog">
+      <br><br>
+      <h1>Динозаврик google</h1>
+      <br><br>
+      <img class="pictures_catalog_game1 marg_catalog_game1"src="../pictures/dino.png" alt="">
+      <h4 class="marg_catalog_game1"> Dinosaur Game, также известная как T-Rex Game или Dino Runner, носившая первоначальное кодовое название Project Bolan — встроенная браузерная игра в браузере Google Chrome. Игра была создана Себастьяном Габриэлем в 2014 году.</h4>
+      <h4 class="marg_catalog_game1">Здесь она представлена в виде кружечка и прямоугольников, но вы можете заменить текстуры. Пожалуй, это самая простая игра на Js, требует знаний основ js.</h4>
+    </div>
+
+    <div class="game2_catalog">
+      <br><br>
+      <h1>Flappy Bird</h1>
+      <br><br>
+      <img class="pictures_catalog_game2 marg_catalog_game2"src="../pictures/flappyBird.png" alt="">
+      <div class="text3">
+        <h4 class="marg_catalog_game2"> Flappy Bird — игра для мобильных устройств, разработанная вьетнамским разработчиком Донгом Нгуеном, в которой игрок с помощью касаний экрана должен контролировать полёт птицы между рядами зелёных труб, не задевая их. Была реализована на платформах iOS и Android.</h4>
+        <h4 class="marg_catalog_game2">Не смотря на то, что игра мобильная, ее очень легко реализовать на чистом js, с помощья переменных можно регулировать: скорость игры, размер пролета для птицы, размеры фигур. В игре реализован счетчик очков.</h4>
+      </div>
+    </div>
+
+    <div class="game3_catalog">
+      <br><br>
+      <h1>Змейка</h1>
+
+      <img class="pictures_catalog_game3 marg_catalog_game3"src="../pictures/snake.png" alt="">
+      <div class="">
+        <h4 class="marg_catalog_game3">Snake — компьютерная игра, уходящая корнями в системы 1970-х. Наиболее известна версия от Nokia, впервые появившаяся в кнопочном телефоне Nokia 6110. Разработана финляндским разработчиком Танели Арманто. </h4>
+        <h4 class="marg_catalog_game3">Реализована на чистом Js. Достаточно простая в реализации. Здесь представлена в очень простом виде. По желанию вы можете добавить модельку для змеи и яблок, а так-же добавить счетчик.</h4>
+      </div>
+    </div>
+
+    <a href="../games2/html/manyGames.html" class="many_games">Более сложные игры</a>
+
+
+
+
+      <!-- Игра dino -->
+
+    <div class="dino_block">
+      <div class="dino_name">
+        <h1>Google dino</h1>
+      </div>
+      <div class="dino_img">
+        <img class="dino_img1" src="../pictures/dino.png" alt="">
+      </div>
+      <div class="dino_opisanie">
+        <h3> Реализован на чистом js. Используютя html, css, js. Для прышка клавиша shift. Все настройки (скорость игры, высота, скорость и физика прыжка, привязка клавиш) можно менять под себя. В игре имеются 3 сложности. Также имеется кнопка Начала и остановки игры. Уведомление о проигрыше выводится через alert.</h3>
+      </div>
+      <div class="dino_btn_goplay">
+        <a class="dino_btn_goplay1" href="dino_game.html"><p class="pravka2">Играть!</p></a>
+      </div>
+      <div class="dino_btn_kod">
+        <a class="dino_btn_kod1" href="../text/dino_kod.txt"><p class="pravka3">Посмотреть⠀код</p></a>
+      </div>
+      <div class="dino_kod_download">
+      <a class="dino_kod_download1" href="../text/dino_kod.txt" download><p class="pravka4">Скачать⠀код</p></a>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Игра flappy bird -->
+
+  <div class="bird_block">
+    <div class="bird_name">
+      <h1>Flappy bird</h1>
+    </div>
+    <div class="bird_img">
+      <img class="bird_img1" src="../pictures/flappyBird.png" alt="">
+    </div>
+    <div class="bird_opisanie">
+      <h3> Реализован на чистом js. Используютя html, js. Для взлета клавиша shift. Все настройки (скорость игры, физика прыжка, привязка клавиш) можно менять под себя. Требуется скачать несколько Png для корректной работы программы. Требует больше знаний js, чем dino и snake. (Ну или ctrl+c ctrl+v)</h3>
+    </div>
+    <div class="bird_btn_goplay">
+      <a class="bird_btn_goplay1" href="flappyBird_game.html"><p class="pravka2">Играть!</p></a>
+    </div>
+    <div class="bird_Kod">
+      <a class="bird_btn_kod1" href="../text/flappyBird_kod.txt"><p class="pravka3">Посмотреть⠀код</p></a>
+    </div>
+    <div class="bird_download">
+      <a class="bird_kod_download1" href="../text/flappyBird_kod.txt" download><p class="pravka4">Скачать⠀код</p></a>
+      <a class="bird_kod_download1" href="bird_img_download.html" ><p class="pravka5">Скачать⠀картинки</p></a>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <!-- Игра snake -->
+
+<div  class="snake_block">
+  <div class="snake_name">
+    <h1>Snake</h1>
+  </div>
+  <div class="snake_img">
+      <img class="snake_img1" src="../pictures/snake.png" alt="">
+  </div>
+  <div class="snake_opisanie">
+    <h3> Реализован на чистом js. Используютя html, css, js. Все настройки можно менять под себя. Используется canvas и массивы. Написана в 1 файле. При желании можно доработать и добавить змейке текстуру.</h3>
+  </div>
+  <div class="snake_btn_goplay">
+    <a class="snake_btn_goplay1" href="snake.html"><p class="pravka2">Играть!</p></a>
+  </div>
+  <div class="snake_Kod">
+    <a class="snake_btn_kod1" href="../text/snake_kod.txt"><p class="pravka3">Посмотреть⠀код</p></a>
+  </div>
+  <div class="snake_download">
+    <a class="snake_kod_download1" href="../text/snake_kod.txt" download><p class="pravka4">Скачать⠀код</p></a>
+  </div>
+</div>
+
+
+  <!-- Черная панель снизу -->
+
+  <div class="black_bl">
+    <img class="footer1"src="../pictures/logo-6.png" alt="">
+    <p class="footer2">©ober0 2022-2023</p>
+    <p class="footer2">Все права защищены</p>
+    <a class='footer3' href="../mail">Помощь</a>
+    <hr class="footer4">
+    <a class='footer5' href="../text/sogl.txt">Пользовательское соглашение</a>
+    <hr class="footer6">
+    <a class='footer7' href="../text/mail.txt">Связь с нами</a>
+    <hr class="footer8">
+
+  </div>
+
+
+
+
+    <!-- ДОЛЖНО БЫТЬ В НИЗУ       ВХОД В АКК -->
+
+    <div id="vhod_tem">
+      <br>
+      <h1>Введите логин и пароль.</h1>
+      <input id="vhod_login" type="text" placeholder="login">
+      <br><br>
+      <input id="vhod_password" type="password" t placeholder="password">
+      <br><br>
+      <button onclick="os4()" type="button" name="button">Войти</button>
+      <h1 id='vhod_sucsess'>Вы успешно вошли!</h1>
+    </div>
+
+
+  </body>
+</html>

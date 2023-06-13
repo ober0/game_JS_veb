@@ -1,0 +1,138 @@
+.snake_block{
+  background: linear-gradient(15deg, #ff4b1f, #1fddff) fixed;
+  margin: -10px;
+  width: 1920px;
+  height: 1100px;
+  position: absolute;
+  top: 3290px;
+  align-items: center;
+  text-align: center;
+}
+
+.snake_name{
+  color:#C6FFDD;
+  position: relative;
+  top: 110px;
+  font-size: 25px;
+}
+
+.snake_img{
+  position: relative;
+  top: 200px;
+  right: 500px;
+}
+.snake_img1{
+  border-radius: 20px;
+}
+
+.snake_opisanie{
+  width: 800px;
+  color: white;
+  position:relative;
+  bottom: 220px;
+  left: 750px;
+}
+
+.snake_btn_goplay{
+  position: relative;
+  bottom: 40px;
+  left: 183px;
+
+  }
+.snake_btn_goplay1:hover{
+    background-position: right center;
+}
+
+.snake_btn_goplay1{
+  border: 0px solid Silver;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 3px 80px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #12c2e9 0%, #c471ed 51%, #f64f59 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+  width: 50px;
+  font-size:25px;
+}
+.pravka2{
+  position: relative;
+  right: 30px;
+  font-size: 25px;
+}
+
+.snake_Kod{
+  position: relative;
+  bottom  : 264px;
+  width: 300px;
+  left: 1150px;
+
+  }
+.snake_btn_kod1:hover{
+    background-position: right center;
+}
+
+.snake_btn_kod1{
+  border: 0px solid Silver;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 0px 160px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right,#c31432 0%,#240b36 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+  width: 50px;
+  font-size:25px;
+}
+
+.pravka3{
+  position: relative;
+  font-size: 25px;
+  right: 110px;
+}
+
+.snake_download{
+  position: relative;
+  bottom: 367px;
+  width: 300px;
+  left: 780px;
+
+  }
+.snake_kod_download1:hover{
+    background-position: right center;
+}
+
+.snake_kod_download1{
+  border: 0px solid Silver;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 0px 130px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #40E0D0 0%, #FF8C00 51%, #FF0080 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+  width: 50px;
+  font-size:25px;
+}
+.pravka4{
+  position: relative;
+  right: 70px;
+}

@@ -1,0 +1,49 @@
+body{
+  background: Silver;
+  text-align: center;
+  align-items: center;
+}
+
+.helpME{
+  align-items: center;
+  text-align: center;
+  position: relative;
+  left: 650px;
+  width:600px;
+  height: 500px;
+  top: 100px;
+  border-radius: 20px;
+  background: white;
+}
+
+#otpravleno{
+  display: none;
+  position: relative;
+  top: 40px;
+
+}
+
+.sod{
+  width: 500px;
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+
+.nazad{
+  text-align: center;
+  position: relative;
+  left: 35px;
+  top: 25px;
+  width: 100px;
+  background: white;
+  height: 25px;
+  border-radius: 10px;
+}
+
+.nazad_a{
+  text-decoration: none;
+  position: relative;
+  top: 3px;
+
+}

@@ -1,0 +1,102 @@
+.ph1{
+  position: relative;
+  border: 0px solid Silver;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #1E9600 0%, #FFD700 51%, #FF0000   100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+  width: 50px;
+}
+.ph1:hover{
+     background-position: right center;
+}
+
+
+.game {
+    width: 600px;
+    height: 200px;
+    border-bottom: 1px solid #000;
+    margin: auto;
+}
+#cont{
+  width:50%;
+  display: flex;
+  margin: 0 auto;
+}
+#diff{
+  top: 30px;
+  background: green;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+#btn{
+  width: 55px;
+  top: 30px;
+  background: green;
+  right: 100px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+#out{
+  top: 30px;
+  color: green;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+#dino {
+  width: 50px;
+  height: 50px;
+  background: radial-gradient(white, black);
+  background-size: 50px 50px;
+  border-radius: 30px;
+  position: relative;
+  top: 150px;
+}
+#cactus {
+  width: 20px;
+  height: 40px;
+  background: radial-gradient(green, black);
+  background-size: 20px 40px;
+  position: relative;
+  top: 110px;
+  left: 580px;
+  animation: cactusMov 1.5s infinite;
+  animation-timing-function: cubic-bezier(0.5,0.5,0.7,0.5);
+}
+@keyframes cactusMov {
+  0% {
+      left: 580px;
+  }
+  100% {
+      left: -20px;
+  }
+}
+.jump {
+  animation: jump 0.3s linear;
+}
+@keyframes jump {
+  0% {
+      top: 150px;
+  }
+  20% {
+      top: 130px;
+  }
+  50% {
+      top: 80px;
+  }
+  80% {
+      top: 130px;
+  }
+  100% {
+      top: 150px;
+  }
+}

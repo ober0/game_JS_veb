@@ -1,0 +1,97 @@
+html{
+  overflow-y: hidden;
+}
+
+.JSgames{
+  font-size: 70px;
+  font-family: 'Noto Serif', serif;
+  color: #ECABFD;
+  text-align: center;
+  position: relative;
+  top:100px;
+}
+
+.spa1{
+
+}
+
+.JSgames1{
+  font-size: 50px;
+  font-family: 'Noto Serif', serif;
+  color: white;
+  text-align: center;
+  position: relative;
+  top:100px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+
+
+.container {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: linear-gradient(-45deg, #009FFF, #ec2F4B);
+  background-size: 200% 200%;
+  animation: gradient2 5s ease infinite;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+@keyframes gradient2 {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}

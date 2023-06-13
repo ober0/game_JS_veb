@@ -1,0 +1,111 @@
+.game1_catalog{
+  width: 500px;
+  height:590px;
+  position: relative;
+  background: white;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  top: 140px;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 60px;
+}
+
+.game3_catalog{
+  width: 500px;
+  height:590px;
+  position: relative;
+  background: white;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  bottom: 1040px;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 60px;
+  left: 1265px;
+
+}
+
+.pictures_catalog_game3{
+  width: 200px;
+  height:200px;
+}
+
+.marg_catalog_game3{
+  margin: 10px;
+}
+.pravka1{
+  margin-top: 10px;
+  position: relative;
+  top: 130px;
+  font-size: 35px;
+  color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(90deg, red, orange, fuchsia);
+  left: 550px;
+}
+
+.pictures_catalog_game1{
+  width: 480px;
+  height: 150px;
+}
+
+.marg_catalog_game1{
+  margin: 10px;
+}
+
+.pictures_catalog_game2{
+  width: 150px;
+  height:300px;
+  position: relative;
+  right: 150px;
+}
+
+.marg_catalog_game2{
+  margin: 10px;
+}
+
+.game2_catalog{
+  width: 500px;
+  height:590px;
+  position: relative;
+  background: white;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  bottom: 450px;
+  font-family: 'Montserrat', sans-serif;
+  left: 700px;
+}
+.text3{
+  position: relative;
+  width: 300px;
+  left: 180px;
+  bottom: 330px;
+}
+
+.many_games{
+  border: 0px solid Silver;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #f64f59 0%, #c471ed 51%,#12c2e9 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+  position:relative;
+  width: 1000px;
+  text-align: center;
+  bottom: 1020px;
+  left: 410px;
+}
+.many_games:hover{
+   background-position: right center;
+}

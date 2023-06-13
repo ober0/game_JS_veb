@@ -1,0 +1,143 @@
+.bird_block{
+  background: linear-gradient(15deg, #800080, #ffc0cb) fixed;
+  margin: -10px;
+  width: 1920px;
+  height: 1100px;
+  position: relative;
+  bottom: 930px;
+  align-items: center;
+  text-align: center;
+}
+
+.bird_name{
+  color:#C6FFDD;
+  position: relative;
+  top: 150px;
+  font-size: 25px;
+}
+
+.bird_img{
+  position: relative;
+  top: 220px;
+  right:570px;
+}
+.bird_img1{
+  border-radius: 20px;
+}
+
+.bird_opisanie{
+  width: 1000px;
+  color: #C6FFDD;
+  position:relative;
+  top: -230px;
+  left: 610px;
+}
+
+.bird_btn_goplay{
+  position: relative;
+  bottom: 110px;
+  right: 230px;
+
+  }
+.bird_btn_goplay1:hover{
+    background-position: right center;
+}
+
+.bird_btn_goplay1{
+  border: 0px solid Silver;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 3px 80px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #12c2e9 0%, #c471ed 51%, #f64f59 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+  width: 50px;
+  font-size:25px;
+}
+.pravka2{
+  position: relative;
+  right: 30px;
+  font-size: 25px;
+}
+
+.bird_Kod{
+  position: relative;
+  top: -214px;
+  width: 300px;
+  left: 880px;
+
+  }
+.bird_btn_kod1:hover{
+    background-position: right center;
+}
+
+.bird_btn_kod1{
+  border: 0px solid Silver;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 0px 160px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #1E9600 0%, #FFF200 51%, #FF0000 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+  width: 50px;
+  font-size:25px;
+}
+
+.pravka3{
+  position: relative;
+  font-size: 25px;
+  right: 110px;
+}
+
+.bird_download{
+  position: relative;
+  left:1320px;
+  bottom: 360px;
+  width: 300px;
+
+  }
+.bird_kod_download1:hover{
+    background-position: right center;
+}
+
+.bird_kod_download1{
+  border: 0px solid Silver;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 0px 130px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #40E0D0 0%, #FF8C00 51%, #FF0080 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+  width: 50px;
+  font-size:25px;
+}
+.pravka4{
+  position: relative;
+  right: 70px;
+}
+
+.pravka5{
+  position: relative;
+  right: 120px;
+}
